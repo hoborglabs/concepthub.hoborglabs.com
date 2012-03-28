@@ -1,0 +1,30 @@
+/**
+ * Hoborg Labs - Concept Hub
+ * 
+ * 
+ */
+
+body {
+	padding-top: 60px;
+}
+
+.powered-by {
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 0 20px rgba(255, 255, 255, 0.2)
+}
+	.powered-by a {
+		text-shadow: none;
+		color: #555;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	}
+
+.highlight {
+	background-color: rgb(232, 232, 232);
+	border-bottom: 1px solid #CCC;
+}
+
+.island {
+	padding: 15px 0px;
+}

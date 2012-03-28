@@ -1,0 +1,33 @@
+imports:
+  - { resource: parameters.ini }
+  - { resource: @DisplayServiceBundle/Resources/config/services.yml }
+  
+framework:
+  secret: %framework.secret%
+  charset: %framework.charset%
+  csrf_protection: true
+  form: true
+
+  router:
+    resource: "%kernel.root_dir%/conf/routing.yml"
+    http_port: 80
+    https_port: 443
+
+  validation: { enable_annotations: true }
+
+#  templating: 
+#    engines: ['twig']  #assets_version: SomeVersionScheme
+
+  session:
+    default_locale: %framework.locale%
+    auto_start:     true
+
+monolog:
+  handlers:
+    main:
+      type:  stream
+      path:  %kernel.logs_dir%/%kernel.environment%.log
+      level: warning
+    firephp:
+      type:  firephp
+      level: info

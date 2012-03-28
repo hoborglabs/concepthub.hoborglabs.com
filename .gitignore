@@ -1,0 +1,14 @@
+/.settings
+/.buildpath
+/.project
+
+# Configuration 
+/application/*/conf/*.ini
+!/application/*/conf/*.default.ini
+/application/*/conf/*/*.ini
+!/application/*/conf/*/*.default.ini
+
+
+/build.properties
+/build
+/logs

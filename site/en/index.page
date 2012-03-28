@@ -1,0 +1,133 @@
+<page name="page">
+	<component name="google-analytics">
+		<data>
+			<enabled>0</enabled>
+			<account>UA-26727070-1</account>
+		</data>
+	</component>
+	<component name="header">
+	</component>
+
+	<component name="body">
+		<data>
+			<type></type>
+		</data>
+		<component name="paragraph">
+			<data>
+				<size>span4</size>
+				<text><![CDATA[
+<h3>Share Youre Concepts!</h3>
+<p>Concept Hub is a small project which aim to provide you with basic 
+functionality for sharing your designs.</p>
+
+<p>Right now it only gives you an options to list a folder, and preview
+images with options to zoom in and zoom out.</p>
+<ul>
+  <li><a href="#" id="link-simple-interface">Simple Interface.</a></li>
+  <li><a href="#" id="link-no-messing-around">No Messing Around</a></li>
+</ul>
+<script type="text/javascript">
+	$("#link-simple-interface").click(function() {$("#myCarousel").carousel(0);});
+	$("#link-no-messing-around").click(function() {$("#myCarousel").carousel(1);});
+</script>
+                ]]></text>
+			</data>
+		</component>
+		<component name="media-grid" template="carousel">
+			<data>
+				<media active="active">
+					<img src="/img/about-01.jpg" />
+					<title>Simple Interface</title>
+					<text><![CDATA[<p>Simple interface allows your clinets to use this app stright away!</p>]]></text>
+				</media>
+				<media>
+					<img src="/img/about-02.jpg" />
+					<title>No Messing Around</title>
+					<text><![CDATA[
+<p>There are no unnecessary steps. Simply upoad images to folder, and that's it. Or if you want to spent
+a little more time, use dropbox.com to synchronize your concepts from your laptop with your server.
+</p>]]></text>
+				</media>
+			</data>
+		</component>
+
+	</component>
+	<component name="body">
+		<data>
+			<type>highlight island</type>
+		</data>
+		<component name="paragraph">
+			<data>
+				<size>span4</size>
+				<text><![CDATA[
+<h3>Share Youre Concepts!</h3>
+<p>Concept Hub is a small project which aim to provide you with basic 
+functionality for sharing your designs.</p>
+
+<p>Right now it only gives you an options to list a folder, and preview
+images with options to zoom in and zoom out.</p>
+                ]]></text>
+			</data>
+		</component>
+		<component name="paragraph">
+			<data>
+				<size>span4</size>
+				<text><![CDATA[
+<h3>Standing on The Shoulders of Giants.</h3>
+<p>
+We believe that there's nothing like using relaiable and stable projects.
+That's why Concept Hub is built on:
+</p>
+<ul>
+  <li><a href="http://documentcloud.github.com/backbone">backbone.js</a></li>
+  <li><a href="http://twitter.github.com/bootstrap">twitter bootstrap css</a></li>
+  <li><a href="http://documentcloud.github.com/underscore">underscore.js</a></li>
+  <li><a href="http://jquery.com">jquery</a></li>
+</ul>
+                ]]></text>
+			</data>
+		</component>
+		<component name="paragraph">
+			<data>
+				<size>span4</size>
+				<text><![CDATA[
+<h3>Is it something for me?</h3>
+
+<p>If you want to share your application mockups and screenshots with your
+clients, and you want ot kepp it all on your private server, then it's 
+something for you.</p>
+
+<p>It's free and opensource!</p>
+                ]]></text>
+			</data>
+		</component>
+	</component>
+
+	<component name="body">
+		<data>
+			<type></type>
+		</data>
+		<component name="paragraph">
+			<data>
+				<size>span12</size>
+				<text><![CDATA[
+<h3>What is The Plan for Future Development?</h3>
+
+<h4>node.js based API</h4>
+<ul>
+	<li>ACL</li>
+	<li>Notes</li>
+</ul>
+
+<h4>We will be using shortly:</h4>
+<ul>
+	<li>node.js (http://nodejs.org)</li>
+	<li>assetic (https://github.com/kriswallsmith/assetic)</li>
+	<li>jasmine (http://pivotal.github.com/jasmine)</li>
+	<li>jenkins (http://jenkins-ci.org)</li>
+</ul>
+				]]></text>
+			</data>
+		</component>
+	</component>
+</page>

@@ -1,0 +1,13 @@
+<templates>
+    <page name="page"   folder="layout/page" />
+    <component name="page" folder="layout/page" />
+    
+    <component name="header" folder="components/grid/header" />
+    <component name="body" folder="components/grid/body" />
+    <component name="footer" folder="components/grid/footer" />
+    
+    <component name="paragraph" folder="components/modules/paragraph" />
+    <component name="media-grid" folder="components/modules/media-grid" />
+    
+    <component name="google-analytics" folder="components/modules/google/analytics" />
+</templates>

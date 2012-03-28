@@ -1,0 +1,3 @@
+[submodule "vendors/concepthub"]
+	path = vendors/concepthub
+	url = git@github.com:hoborglabs/ConceptHub.git
